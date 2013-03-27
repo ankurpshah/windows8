@@ -1,0 +1,10 @@
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bin\Release\resources.pri
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bin\Release\AppxManifest.xml
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bin\Release\RTO Number Finder.build.appxrecipe
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bin\Release\MicrosoftAdvertising.winmd
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bld\Release\priconfig.xml
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bld\Release\layout.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bld\Release\resources.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bld\Release\pri.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bld\Release\LanguageQualifiers.txt
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\RTO Number Finder\bld\Release\ProjectArchitectures.txt

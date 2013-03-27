@@ -1,0 +1,14 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bin\Debug\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bin\Debug\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bin\Debug\RTO Number Finder.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bin\Debug\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\priconfig.xml.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\layout.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\resources.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\pri.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\RTO Number Finder\bld\Debug\ProjectArchitectures.txt
