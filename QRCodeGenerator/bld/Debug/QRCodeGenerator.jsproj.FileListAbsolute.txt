@@ -1,0 +1,14 @@
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bin\Debug\resources.pri
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bin\Debug\AppxManifest.xml
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bin\Debug\QRCodeGenerator.build.appxrecipe
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\priconfig.xml.intermediate
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\layout.resfiles.intermediate
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\resources.resfiles.intermediate
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\pri.resfiles.intermediate
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\priconfig.xml
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\layout.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\resources.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\pri.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\LanguageQualifiers.txt
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\QRCodeGenerator\bld\Debug\ProjectArchitectures.txt

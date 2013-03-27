@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>QRCodeGenerator</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- QRCodeGenerator references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/MSAdvertisingJS/ads/ad.js"></script>
+    <style type="text/css">
+        /* Reset body padding and margins */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Make Header Sticky */
+        #header_container {
+            background: #eee;
+            border: 1px solid #666;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            color: black;
+        }
+
+        #header {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        /* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+        #container {
+            margin: 0 auto;
+            overflow: auto;
+            padding: 80px 0px;
+            width: 940px;
+        }
+
+        #content {
+        }
+
+        /* Make Footer Sticky */
+        #footer_container {
+            background: #eee;
+            border: 1px solid #666;
+            bottom: 0;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            color: black;
+        }
+
+        #footer {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        #charttable {
+            color: black;
+            background: #fff;
+            border: 1px solid black;
+            font: bold 17px helvetica;
+            padding: 0;
+            margin-top: 10px;
+            width: 100%;
+            -webkit-border-radius: 8px;
+        }
+
+        progress.withText
+        {
+            color: inherit; /* Uses the same text color as the page */
+            vertical-align: text-bottom; /* Makes the bottom of the control align with the bottom of its label */
+        }
+
+        /* Text style for a label for the progress ring */
+        .progressRingText
+        {
+            font-family: "Segoe UI";
+        }
+
+        /* Text style for a label for a default size progress ring */
+        .progressRingText
+        {
+            font-size: 16pt;
+            line-height: 15pt;
+        }
+
+        /* The margin to separate the ring and its label */
+        .progressRingText progress
+        {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header_container">
+        <div id="header">
+           Generate QR Code
+        </div>
+    </div>
+    <div id="container">
+        <div id="content">
+            <table>
+                <tr>
+                    <td>
+    					<label for="qrtext">Enter text:</label>
+                    </td>
+                    <td>
+                        <textarea name="qrtext" id="qrtext" rows="7" cols="70"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    </td>
+                </tr>
+                <tr style="text-align:center;">
+                    <td colspan="2">
+                        <input type="button" id="submit" name="submit" value="Submit" />
+                    </td>
+                </tr>
+            </table>
+            <div id="progressdiv" style="visibility:hidden; color:blue;">
+                <label class="progressRingText">
+                    <progress class="win-ring withText"></progress>
+                    Getting QR Code ...
+                </label>
+            </div>
+            <div id="logo_image" style="visibility:hidden; text-align:center">
+				<img id="qrimage" />
+			</div>
+            <div id="Div1" style="position: absolute; top: 60px; left: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: 'a3f03bd4-306c-43b8-a612-7b585ff1af4e', adUnitId: '10066353'}">
+            </div>
+            <div id="Div2" style="position: absolute; top: 60px; right: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: 'a3f03bd4-306c-43b8-a612-7b585ff1af4e', adUnitId: '10066353'}">
+            </div>
+        </div>
+    </div>
+    <div id="footer_container">
+        <div id="footer">
+            Developed By: Ankur Shah
+        </div>
+    </div>
+</body>
+</html>
