@@ -1,0 +1,10 @@
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\Release\resources.pri
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\Release\AppxManifest.xml
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\Release\GratuityCalculator.build.appxrecipe
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\Release\MicrosoftAdvertising.winmd
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\Release\priconfig.xml
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\Release\layout.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\Release\resources.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\Release\pri.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\Release\LanguageQualifiers.txt
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\Release\ProjectArchitectures.txt

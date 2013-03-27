@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ISHIAHM-LT138</Machine>
+    <WindowsUser>ankur.shah</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>7BA3DE7893C1E5011E8F3ED30D4DCD021518A531CABF75DB23270C4F991147CF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>875990e6-12a3-45c5-be5b-02200bfbbe0d_1.0.0.0_neutral__57hye1cgqdcvj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>875990e6-12a3-45c5-be5b-02200bfbbe0d_57hye1cgqdcvj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>875990e6-12a3-45c5-be5b-02200bfbbe0d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ankur.shah</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T07:15:39.604</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-01-24T05:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\ad.js">
+      <PackagePath>MSAdvertisingJS\ads\ad.js</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\bootstrap.js">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.js</PackagePath>
+      <Modified>2013-01-24T05:07:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\ormma.js">
+      <PackagePath>MSAdvertisingJS\ads\ormma.js</PackagePath>
+      <Modified>2013-01-24T05:07:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\bootstrap.html">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.html</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.12x12.png">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.12x12.png</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.16x16.png">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.16x16.png</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-03-12T06:42:00.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T06:37:09.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T06:38:03.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T06:39:13.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T06:37:40.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-03-11T18:51:43.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-02-13T14:54:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-12T07:15:39.224</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>GratuityCalculator</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- GratuityCalculator references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/MSAdvertisingJS/ads/ad.js"></script>
+    <style type="text/css">
+        /* Reset body padding and margins */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Make Header Sticky */
+        #header_container {
+            background: #eee;
+            border: 1px solid #666;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            color: black;
+        }
+
+        #header {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        /* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+        #container {
+            margin: 0 auto;
+            overflow: auto;
+            padding: 80px 0;
+            width: 940px;
+        }
+
+        #content {
+        }
+
+        /* Make Footer Sticky */
+        #footer_container {
+            background: #eee;
+            border: 1px solid #666;
+            bottom: 0;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            color: black;
+        }
+
+        #footer {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="header_container">
+        <div id="header">
+            Gratuity Calculator
+        </div>
+    </div>
+    <div id="container">
+        <div id="content">
+            <table>
+                <tr>
+                    <td>
+                        <label for="basic">Basic Pay:</label></td>
+                    <td>
+                        <input type="range" name="basic" id="basic" value="25000" min="1" max="200000" />
+                        <input type="text" name="basictext" id="basictext" value="25000" readonly="true" /> <u>Rupees</u>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="da">Dearness Allowance:</label></td>
+                    <td>
+                        <input type="range" name="da" id="da" value="10000" min="1" max="100000" />
+                        <input type="text" name="datext" id="datext" value="10000" readonly="true" /> <u>Rupees</u>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="months">Months completed:</label></td>
+                    <td>
+                        <input type="range" name="months" id="months" value="60" min="60" max="400" />
+                        <input type="text" name="monthstext" id="monthstext" value="60" readonly="true" /> <u>Months</u>
+                    <!--</td>-->
+                </tr>
+            </table>
+            <div id="Div3" style="font-weight: bold; color: blue; font-size: larger;">
+                Employee eligible for gratuity only after s/he completes 5 years with one employer.
+            </div>
+            <div id="Div4" style="font-weight: bold; color: blue; font-size: larger;">
+                If employee completes more than 6 months in an year then it considers as full year.
+            </div>
+            <div id="result" style="font-weight: bold; color: Red; font-size: larger;">
+            </div>
+            <div id="Div1" style="position: absolute; top: 60px; left: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: 'd4d0e26d-d766-4c35-b40f-cd40b14733aa', adUnitId: '10064548'}">
+            </div>
+            <div id="Div2" style="position: absolute; top: 60px; right: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: 'd4d0e26d-d766-4c35-b40f-cd40b14733aa', adUnitId: '10064548'}">
+            </div>
+        </div>
+    </div>
+    <div id="footer_container">
+        <div id="footer">
+            Developed By: Ankur Shah
+        </div>
+    </div>
+</body>
+</html>

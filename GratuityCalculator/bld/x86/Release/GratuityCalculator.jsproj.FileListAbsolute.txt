@@ -1,0 +1,14 @@
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\x86\Release\resources.pri
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\x86\Release\AppxManifest.xml
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\x86\Release\GratuityCalculator.build.appxrecipe
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bin\x86\Release\MicrosoftAdvertising.winmd
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\priconfig.xml.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\layout.resfiles.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\resources.resfiles.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\pri.resfiles.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\priconfig.xml
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\layout.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\resources.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\pri.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\LanguageQualifiers.txt
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\GratuityCalculator\bld\x86\Release\ProjectArchitectures.txt

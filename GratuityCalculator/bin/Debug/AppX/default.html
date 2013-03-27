@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>GratuityCalculator</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- GratuityCalculator references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/MSAdvertisingJS/ads/ad.js" ></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><label for="basic">Basic Pay:</label></td>
+	        <td>
+                <input type="range" name="basic" id="basic" value="25000" min="1" max="200000"  />
+                <input type="text" name="basictext" id="basictext" value="25000"  readonly="true" />
+	        </td>
+        </tr>
+        <tr>
+            <td><label for="da">Dearness Allowance:</label></td>
+	        <td>
+                <input type="range" name="da" id="da" value="10000" min="1" max="100000" />
+                <input type="text" name="datext" id="datext" value="10000" readonly="true" />
+	        </td>
+        </tr>
+        <tr>
+            <td><label for="months">Months completed:</label></td>
+	        <td>
+                <input type="range" name="months" id="months" value="60" min="1" max="400" />
+                <input type="text" name="monthstext" id="monthstext" value="60" readonly="true" />
+	        </td>
+        </tr>
+    </table>
+    <div id="result" style=" font-weight:bold; color:Red; font-size:larger;">Ankur Shah
+    </div>
+    <div id="Div1" style="position: absolute; top: 453px; left: 0px; width: 250px; height: 250px; z-index: 1" 
+        data-win-control="MicrosoftNSJS.Advertising.AdControl" 
+        data-win-options="{applicationId: '15cee7de-019f-44f9-a511-695f01f44c72', adUnitId: '10064470'}">
+    </div>
+</body>
+</html>
