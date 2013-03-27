@@ -1,0 +1,10 @@
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bin\Release\resources.pri
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bin\Release\AppxManifest.xml
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bin\Release\Currency Converter.build.appxrecipe
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bin\Release\MicrosoftAdvertising.winmd
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bld\Release\priconfig.xml
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bld\Release\layout.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bld\Release\resources.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bld\Release\pri.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bld\Release\LanguageQualifiers.txt
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\Currency Converter\bld\Release\ProjectArchitectures.txt

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata"
+        xmlns:win="http://microsoft.com/blend/5/namespace"
+        spec="1.0"
+        id="ms-appx://MSAdvertisingJS/ads/MicrosoftNSJS.Advertising.AdControl"
+        name="MicrosoftNSJS.Advertising.AdControl"
+        version="1.0">
+  <author name="Microsoft Corporation" />
+  <title type="text/plain">AdControl</title>
+  <icons>
+    <icon src="microsoftnsjs.advertising.adcontrol.icon.12x12.png" width="12" height="12" />
+    <icon src="microsoftnsjs.advertising.adcontrol.icon.16x16.png" width="16" height="16" />
+  </icons>
+  <description type="text/plain">
+    <![CDATA[Control used to display advertising in an application.]]>
+  </description>  
+  <requires>
+    <require type="javascript" src="//Microsoft.WinJS.1.0/js/base.js" />
+    <require type="javascript" src="//Microsoft.WinJS.1.0/js/ui.js" />
+    <require type="javascript" src="///MSAdvertisingJS/ads/ad.js" />
+    <require type="javascript"><![CDATA[WinJS.UI.processAll();]]></require>
+  </requires>
+  <properties>
+    <property name="applicationId" datatype="String" required="true">
+      <description type="text/plain">Gets or sets the applicationId to use.</description>
+    </property>
+    <property locid="MicrosoftNSJS.Advertising.AdControl.adUnitId" name="adUnitId" datatype="String" required="true">
+      <description type="text/plain">Gets or sets the adUnitId to use.</description>
+    </property>
+    <property name="isAutoRefreshEnabled" datatype="Boolean" required="false">
+      <description type="text/plain">Whether the ad should automatically update itself.</description>
+    </property>
+    <property name="latitude" datatype="Number" required="false">
+      <description type="text/plain">The latitude of the user. The location is in the format of a latitude coordinate.</description>
+    </property>
+    <property name="longitude" datatype="Number" required="false">
+      <description type="text/plain">The longitude of the user. The location is in the format of a longitude coordinate.</description>
+    </property>
+  </properties>
+  <content>
+  <![CDATA[
+    <div style="width:250px; height:250px; z-index:1"
+        data-win-control="MicrosoftNSJS.Advertising.AdControl"
+        data-win-options="{applicationId: 'd25517cb-12d4-4699-8bdc-52040c712cab', adUnitId: '10043104', isAutoRefreshEnabled: false }" >
+    </div>
+    ]]>
+  </content>
+</widget>

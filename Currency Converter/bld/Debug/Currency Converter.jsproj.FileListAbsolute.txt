@@ -1,0 +1,14 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bin\Debug\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bin\Debug\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bin\Debug\Currency Converter.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bin\Debug\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\priconfig.xml.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\layout.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\resources.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\pri.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Currency Converter\bld\Debug\ProjectArchitectures.txt

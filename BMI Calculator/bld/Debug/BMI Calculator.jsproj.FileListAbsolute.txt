@@ -1,0 +1,14 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bin\Debug\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bin\Debug\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bin\Debug\BMI Calculator.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bin\Debug\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\ProjectArchitectures.txt
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\priconfig.xml.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\layout.resfiles.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\resources.resfiles.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\BMI Calculator\bld\Debug\pri.resfiles.intermediate

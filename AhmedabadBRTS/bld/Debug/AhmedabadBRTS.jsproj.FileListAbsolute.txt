@@ -1,0 +1,14 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bin\Debug\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bin\Debug\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bin\Debug\AhmedabadBRTS.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bin\Debug\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\priconfig.xml.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\layout.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\resources.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\pri.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Debug\ProjectArchitectures.txt

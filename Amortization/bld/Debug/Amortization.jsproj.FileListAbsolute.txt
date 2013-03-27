@@ -1,0 +1,14 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bin\Debug\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bin\Debug\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bin\Debug\Amortization.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bin\Debug\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\ProjectArchitectures.txt
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\priconfig.xml.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\layout.resfiles.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\resources.resfiles.intermediate
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Debug\pri.resfiles.intermediate

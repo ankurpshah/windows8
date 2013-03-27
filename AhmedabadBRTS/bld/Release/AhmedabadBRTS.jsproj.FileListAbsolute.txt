@@ -1,0 +1,10 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bin\Release\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bin\Release\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bin\Release\AhmedabadBRTS.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bin\Release\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Release\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Release\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Release\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Release\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Release\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\AhmedabadBRTS\bld\Release\ProjectArchitectures.txt

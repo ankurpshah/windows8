@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BMI_Calculator</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- BMI_Calculator references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/MSAdvertisingJS/ads/ad.js"></script>
+    <style type="text/css">
+        /* Reset body padding and margins */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Make Header Sticky */
+        #header_container {
+            background: #eee;
+            border: 1px solid #666;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            color: black;
+        }
+
+        #header {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        /* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+        #container {
+            margin: 0 auto;
+            overflow: auto;
+            padding: 80px 0px;
+            width: 940px;
+        }
+
+        #content {
+        }
+
+        /* Make Footer Sticky */
+        #footer_container {
+            background: #eee;
+            border: 1px solid #666;
+            bottom: 0;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            color: black;
+        }
+
+        #footer {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        #charttable {
+            color: black;
+            background: #fff;
+            border: 1px solid black;
+            font: bold 17px helvetica;
+            padding: 0;
+            margin-top: 10px;
+            width: 100%;
+            -webkit-border-radius: 8px;
+        }
+
+        table {
+            color: black;
+            background: #78bbeb;
+            border: 1px solid #b4b4b4;
+            font: bold 17px helvetica;
+            padding: 0;
+            margin-top: 10px;
+            width: 100%;
+            -webkit-border-radius: 8px;
+        }
+
+            table caption {
+                text-align: left;
+            }
+
+            table thead tr th {
+                background: #000;
+                color: #fff;
+                text-align: left;
+                border-bottom-width: 1px;
+                border-top-width: 1px;
+            }
+
+            table tr td {
+                text-align: left;
+                color: #666;
+                border-bottom: 1px solid #b4b4b4;
+                border-right: 1px solid #b4b4b4;
+                padding: 10px 10px 10px 10px;
+                background-image: -webkit-linear-gradient(top, #fdfdfd, #eee);
+            }
+
+            table tr th {
+                text-align: left;
+                color: #666;
+                border-bottom: 1px solid #b4b4b4;
+                border-right: 1px solid #b4b4b4;
+                padding: 10px 10px 10px 10px;
+                background-image: -webkit-linear-gradient(top, #fdfdfd, #eee);
+            }
+    </style>
+</head>
+<body>
+    <div id="header_container">
+        <div id="header">
+            BMI Calculator
+        </div>
+    </div>
+    <div id="container">
+        <div id="content">
+            <table>
+                <tr>
+                    <td>
+                        <label for="method">Method:</label>
+                    </td>
+                    <td>
+                        <select name="method" id="method" data-role="slider" data-theme="a">
+                            <option value="metric">Metric</option>
+                            <option value="english">English</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="wlabel" for="weight">Weight(kgs):</label>
+                    </td>
+                    <td>
+                        <input type="range" name="weight" id="weight" value="60" min="1" max="200" data-highlight="true" />
+                        <input type="text" name="weighttext" id="weighttext" value="60" readonly="true" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="hlabel" for="height">Height(inches):</label>
+                    </td>
+                    <td>
+                        <input type="range" name="height" id="height" value="150" min="1" max="300" data-highlight="true" />
+                        <input type="text" name="heighttext" id="heighttext" value="150" readonly="true" />
+                    </td>
+                </tr>
+            </table>
+            <div id="result" name="result" style="font-weight: bold; color: Red; font-size: x-large;">
+            </div>
+            <table summary="BMI Chart">
+                <caption style="color:aqua;">BMI Chart</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Category</th>
+                        <th scope="col">BMI range</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Very severely underweight</th>
+                        <td>less than 15</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Severely underweight</th>
+                        <td>from 15.0 to 16.0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Underweight</th>
+                        <td>from 16.0 to 18.5</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Normal (healthy weight)</th>
+                        <td>from 18.5 to 25</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Overweight</th>
+                        <td>from 25 to 30</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Obese Class I (Moderately obese)</th>
+                        <td>from 30 to 35</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Obese Class II (Severely obese)</th>
+                        <td>from 35 to 40</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Obese Class III (Very severely obese)</th>
+                        <td>over 40</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="Div1" style="position: absolute; top: 60px; left: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: 'ab88126e-a53b-4740-8339-763361b36164', adUnitId: '10064909'}">
+            </div>
+            <div id="Div2" style="position: absolute; top: 60px; right: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: 'ab88126e-a53b-4740-8339-763361b36164', adUnitId: '10064909'}">
+            </div>
+        </div>
+    </div>
+    <div id="footer_container">
+        <div id="footer">
+            Developed By: Ankur Shah
+        </div>
+    </div>
+</body>
+</html>

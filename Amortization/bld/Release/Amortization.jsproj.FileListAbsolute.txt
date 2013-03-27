@@ -1,0 +1,10 @@
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bin\Release\resources.pri
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bin\Release\AppxManifest.xml
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bin\Release\Amortization.build.appxrecipe
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bin\Release\MicrosoftAdvertising.winmd
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Release\priconfig.xml
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Release\layout.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Release\resources.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Release\pri.resfiles
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Release\LanguageQualifiers.txt
+C:\Users\ankur.shah\documents\visual studio 2012\Projects\Amortization\bld\Release\ProjectArchitectures.txt
