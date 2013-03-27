@@ -1,0 +1,14 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bin\Debug\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bin\Debug\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bin\Debug\India_STD_Code.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bin\Debug\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\ProjectArchitectures.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\priconfig.xml.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\layout.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\resources.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Debug\pri.resfiles.intermediate

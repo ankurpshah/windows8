@@ -1,0 +1,14 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bin\Release\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bin\Release\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bin\Release\India_STD_Code.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bin\Release\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\priconfig.xml.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\layout.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\resources.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\pri.resfiles.intermediate
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\India_STD_Code\bld\Release\ProjectArchitectures.txt
