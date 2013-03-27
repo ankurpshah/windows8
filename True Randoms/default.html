@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>True_Randoms</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- True_Randoms references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/MSAdvertisingJS/ads/ad.js"></script>
+    <style type="text/css">
+        /* Reset body padding and margins */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Make Header Sticky */
+        #header_container {
+            background: #eee;
+            border: 1px solid #666;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            color: black;
+        }
+
+        #header {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        /* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+        #container {
+            margin: 0 auto;
+            overflow: auto;
+            padding: 80px 0px;
+            width: 940px;
+        }
+
+        #content {
+        }
+
+        /* Make Footer Sticky */
+        #footer_container {
+            background: #eee;
+            border: 1px solid #666;
+            bottom: 0;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            color: black;
+        }
+
+        #footer {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        #charttable {
+            color: black;
+            background: #fff;
+            border: 1px solid black;
+            font: bold 17px helvetica;
+            padding: 0;
+            margin-top: 10px;
+            width: 100%;
+            -webkit-border-radius: 8px;
+        }
+
+        progress.withText
+        {
+            color: inherit; /* Uses the same text color as the page */
+            vertical-align: text-bottom; /* Makes the bottom of the control align with the bottom of its label */
+        }
+
+        /* Text style for a label for the progress ring */
+        .progressRingText
+        {
+            font-family: "Segoe UI";
+        }
+
+        /* Text style for a label for a default size progress ring */
+        .progressRingText
+        {
+            font-size: 16pt;
+            line-height: 15pt;
+        }
+
+        /* The margin to separate the ring and its label */
+        .progressRingText progress
+        {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header_container">
+        <div id="header">
+           True Randoms
+        </div>
+    </div>
+    <div id="container">
+        <div id="content">
+            <div style="margin:0px; border:Solid 4px blue; color: cyan">
+			    <p align="justify" style="text-align: justify; margin:0px; font-weight:bold;">
+				    This app uses data from random.org. Text from random.org:
+			    </p>
+			    <hr />
+			    <p align="justify">
+				    Perhaps you have wondered how predictable machines like computers can generate randomness. 
+				    In reality, most random numbers used in computer programs are pseudo-random, which means they are generated in a predictable fashion using a mathematical formula. 
+				    This is fine for many purposes, but it may not be random in the way you expect if you're used to dice rolls and lottery drawings.
+			    </p>
+			    <p align="justify">
+				    RANDOM.ORG offers true random numbers to anyone on the Internet. 
+				    The randomness comes from atmospheric noise, which for many purposes is better than the pseudo-random number algorithms typically used in computer programs.
+			    </p>
+		    </div>
+            <table>
+                <tr>
+                    <td>
+    					<label for="min">Minimum:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="min" name="min" value="0" min="-1000000000" max="1000000000"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+    					<label for="max">Maximum:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="max" name="max" value="100" min="-1000000000" max="1000000000"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+    					<label for="total">Numbers:</label>
+                    </td>
+                    <td>
+                        <input type="range" name="total" id="total" value="5" min="1" max="10" data-highlight="true"/>
+                        <input type="text" name="totaltext" id="totaltext" value="5" readonly="true" size="3" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    </td>
+                </tr>
+                <tr style="text-align:center;">
+                    <td colspan="2">
+                        <input type="button" id="randombutton" name="randombutton" value="Get Random Numbers" />
+                    </td>
+                </tr>
+            </table>
+            <div id="progressdiv" style="visibility:hidden; color:blue;">
+                <label class="progressRingText">
+                    <progress class="win-ring withText"></progress>
+                    Getting Numbers ...
+                </label>
+            </div>
+            <div id="result" style="font-weight:bold; color:Red; font-size:x-large; border:Solid 4px blue; text-align: center;"></div>
+            <div id="Div1" style="position: absolute; top: 60px; left: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: '845e6781-09cd-49da-aea6-9ee6bcea4f44', adUnitId: '10066362'}">
+            </div>
+            <div id="Div2" style="position: absolute; top: 60px; right: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: '845e6781-09cd-49da-aea6-9ee6bcea4f44', adUnitId: '10066362'}">
+            </div>
+        </div>
+    </div>
+    <div id="footer_container">
+        <div id="footer">
+            Developed By: Ankur Shah
+        </div>
+    </div>
+</body>
+</html>

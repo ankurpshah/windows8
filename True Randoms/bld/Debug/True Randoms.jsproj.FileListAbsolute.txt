@@ -1,0 +1,10 @@
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bin\Debug\resources.pri
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bin\Debug\AppxManifest.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bin\Debug\True Randoms.build.appxrecipe
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bin\Debug\MicrosoftAdvertising.winmd
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bld\Debug\priconfig.xml
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bld\Debug\layout.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bld\Debug\resources.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bld\Debug\pri.resfiles
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bld\Debug\LanguageQualifiers.txt
+c:\users\ankur.shah\documents\visual studio 2012\Projects\True Randoms\bld\Debug\ProjectArchitectures.txt
