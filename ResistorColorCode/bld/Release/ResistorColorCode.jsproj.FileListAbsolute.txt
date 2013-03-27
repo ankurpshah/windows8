@@ -1,0 +1,14 @@
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bin\Release\resources.pri
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bin\Release\AppxManifest.xml
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bin\Release\ResistorColorCode.build.appxrecipe
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bin\Release\MicrosoftAdvertising.winmd
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\priconfig.xml.intermediate
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\layout.resfiles.intermediate
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\resources.resfiles.intermediate
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\pri.resfiles.intermediate
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\priconfig.xml
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\layout.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\resources.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\pri.resfiles
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\LanguageQualifiers.txt
+C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bld\Release\ProjectArchitectures.txt

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ISHIAHM-LT138</Machine>
+    <WindowsUser>ankur.shah</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>01E71F613DCAE2375E333857E5B9D190D254562118000FAFA775D6EAB977864A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>10657AnkurShah.ResistorColorCode_1.0.0.0_neutral__rm9q6mcps8z2r</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>10657AnkurShah.ResistorColorCode_rm9q6mcps8z2r!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>10657AnkurShah.ResistorColorCode</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=54F8036E-B2D7-4FAA-AD79-6438255C6A7A</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-26T20:06:48.360</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-01-24T05:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\ad.js">
+      <PackagePath>MSAdvertisingJS\ads\ad.js</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\bootstrap.js">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.js</PackagePath>
+      <Modified>2013-01-24T05:07:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\ormma.js">
+      <PackagePath>MSAdvertisingJS\ads\ormma.js</PackagePath>
+      <Modified>2013-01-24T05:07:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\bootstrap.html">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.html</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.12x12.png">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.12x12.png</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.16x16.png">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.16x16.png</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml</PackagePath>
+      <Modified>2013-01-24T05:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-03-26T14:06:39.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-26T12:57:37.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-26T12:58:05.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-26T12:58:45.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-26T12:57:51.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-03-26T13:56:46.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-02-13T14:54:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ankur.shah\Documents\Visual Studio 2012\Projects\ResistorColorCode\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-26T14:07:43.936</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

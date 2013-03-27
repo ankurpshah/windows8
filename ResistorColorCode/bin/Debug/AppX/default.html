@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ResistorColorCode</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- ResistorColorCode references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/MSAdvertisingJS/ads/ad.js"></script>
+    <style type="text/css">
+        /* Reset body padding and margins */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Make Header Sticky */
+        #header_container {
+            background: #eee;
+            border: 1px solid #666;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            color: black;
+        }
+
+        #header {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        /* CSS for the content of page. I am giving top and bottom padding of 80px to make sure the header and footer do not overlap the content.*/
+        #container {
+            margin: 0 auto;
+            overflow: auto;
+            padding: 80px 0px;
+            width: 940px;
+        }
+
+        #content {
+        }
+
+        /* Make Footer Sticky */
+        #footer_container {
+            background: #eee;
+            border: 1px solid #666;
+            bottom: 0;
+            height: 60px;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            color: black;
+        }
+
+        #footer {
+            line-height: 60px;
+            margin: 0 auto;
+            width: 940px;
+            text-align: center;
+        }
+
+        #charttable {
+            color: black;
+            background: #fff;
+            border: 1px solid black;
+            font: bold 17px helvetica;
+            padding: 0;
+            margin-top: 10px;
+            width: 100%;
+            -webkit-border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header_container">
+        <div id="header">
+            Resistor Color Code
+        </div>
+    </div>
+    <div id="container">
+        <div id="content">
+            <table>
+                <tr>
+                    <td>
+    					<label for="band1">*Band 1 :</label>
+                    </td>
+                    <td>
+                        <select id="band1">
+                            <option value="none" data-placeholder="true">Band 1</option>
+                            <option value="0" style="background-color: black; color: white;">Black</option>
+                            <option value="1" style="background-color: brown;">Brown</option>
+                            <option value="2" style="background-color: red;">Red</option>
+                            <option value="3" style="background-color: orange;">Orange</option>
+                            <option value="4" style="background-color: yellow;">Yellow</option>
+                            <option value="5" style="background-color: green;">Green</option>
+                            <option value="6" style="background-color: blue;">Blue</option>
+                            <option value="7" style="background-color: violet;">Violet</option>
+                            <option value="8" style="background-color: grey;">Grey</option>
+                            <option value="9" style="background-color: white; color: black;">White</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+    					<label for="band2">*Band 2 :</label>
+                    </td>
+                    <td>
+                        <select id="band2">
+                            <option value="none" data-placeholder="true">Band 2</option>
+                            <option value="0" style="background-color: black; color: white;">Black</option>
+                            <option value="1" style="background-color: brown;">Brown</option>
+                            <option value="2" style="background-color: red;">Red</option>
+                            <option value="3" style="background-color: orange;">Orange</option>
+                            <option value="4" style="background-color: yellow;">Yellow</option>
+                            <option value="5" style="background-color: green;">Green</option>
+                            <option value="6" style="background-color: blue;">Blue</option>
+                            <option value="7" style="background-color: violet;">Violet</option>
+                            <option value="8" style="background-color: grey;">Grey</option>
+                            <option value="9" style="background-color: white; color: black;">White</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+    					<label for="band3">Band 3</label>
+                    </td>
+                    <td>
+                        <select id="band3">
+                            <option value="none" data-placeholder="true">Band 3</option>
+                            <option value="0" style="background-color: black; color: white;">Black</option>
+                            <option value="1" style="background-color: brown;">Brown</option>
+                            <option value="2" style="background-color: red;">Red</option>
+                            <option value="3" style="background-color: orange;">Orange</option>
+                            <option value="4" style="background-color: yellow;">Yellow</option>
+                            <option value="5" style="background-color: green;">Green</option>
+                            <option value="6" style="background-color: blue;">Blue</option>
+                            <option value="7" style="background-color: violet;">Violet</option>
+                            <option value="8" style="background-color: grey;">Grey</option>
+                            <option value="9" style="background-color: white; color: black;">White</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+    					<label for="multiplier">*Multiplier :</label>
+                    </td>
+                    <td>
+                        <select id="multiplier">
+                            <option value="none" data-placeholder="true">Multiplier</option>
+                            <option value="1" style="background-color: black; color: white;">Black</option>
+                            <option value="10" style="background-color: brown;">Brown</option>
+                            <option value="100" style="background-color: red;">Red</option>
+                            <option value="1000" style="background-color: orange;">Orange</option>
+                            <option value="10000" style="background-color: yellow;">Yellow</option>
+                            <option value="100000" style="background-color: green;">Green</option>
+                            <option value="1000000" style="background-color: blue;">Blue</option>
+                            <option value="10000000" style="background-color: violet;">Violet</option>
+                            <option value="100000000" style="background-color: grey;">Grey</option>
+                            <option value="1000000000" style="background-color: white; color: black;">White</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+    					<label for="tolerance">*Tolerance :</label>
+                    </td>
+                    <td>
+                        <select id="tolerance">
+                            <option value="none" data-placeholder="true">Tolerance</option>
+                            <option value="5%" style="background-color: gold;">Gold</option>
+                            <option value="10%" style="background-color: silver;">Silver</option>
+                            <option value="20%" style="background-color: white; color: black;">None</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <div></div>
+            <div id="result" name="result" style="font-weight:bold; color:Red; font-size:x-large;">
+            </div>
+            <div id="Div1" style="position: absolute; top: 60px; left: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: '84354790-40c7-427a-b913-044450586c0c', adUnitId: '10066354'}">
+            </div>
+            <div id="Div2" style="position: absolute; top: 60px; right: 0px; width: 160px; height: 600px; z-index: 1"
+                data-win-control="MicrosoftNSJS.Advertising.AdControl"
+                data-win-options="{applicationId: '84354790-40c7-427a-b913-044450586c0c', adUnitId: '10066354'}">
+            </div>
+        </div>
+    </div>
+    <div id="footer_container">
+        <div id="footer">
+            Developed By: Ankur Shah
+        </div>
+    </div>
+</body>
+</html>
